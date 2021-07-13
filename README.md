@@ -5,7 +5,7 @@ These skeletons are traced out by human annotators attempting to capture the lar
 Common mistakes in such skeletons include *missing branches* (false splits) and accidentilly tracing sections of *adjacent* neurons (false merges).
 Given a large collection of fully curated skeletons from [VFB] we train a GCN to identify these common mistakes through artificially introducing damage (splits and merges) similar in character to the common mistakes found in uncurated, human-annotated neuron skeletons.
 
-This project was conceived of and developed at the Janelia Workshop on Machine Learning and Computer Vision (MLCV) in the Spring of 2019. This work was done by Alberto Bailoni, Coleman Broaddus, Melanie Dohmen, Neeli Mishra, William Patton and Igor Vasiljevic. We received very helpful mentorship by Jan Funke and Stephan Saalfeld.
+This project was developed at the Janelia Workshop on Machine Learning and Computer Vision (MLCV) in April 2019. This work was done by Alberto Bailoni, Coleman Broaddus, Melanie Dohmen, Neeli Mishra, William Patton and Igor Vasiljevic. We received very helpful mentorship from Jan Funke and Stephan Saalfeld.
 
 # Graph Convolutional Networks
 
