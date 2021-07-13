@@ -1,6 +1,6 @@
 # Skeletron: Automated Error Detection in Neuron Skeletons
 
-We aim to teach a Graph Convolutional Network (GCN) to locate (and fix?) mistakes which are naturally ocurring in human-annotated nueron skeletons.
+We aim to teach a Graph Convolutional Network (GCN) to locate (and fix?) mistakes which are naturally ocurring in human-annotated neuron skeletons.
 These skeletons are traced out by human annotators attempting to capture the large-scale structure of individual neurons in EM and fluorescence microscopy data.
 Common mistakes in such skeletons include *missing branches* (false splits) and accidentilly tracing sections of *adjacent* neurons (false merges).
 Given a large collection of fully curated skeletons from [VFB] we train a GCN to identify these common mistakes through artificially introducing damage (splits and merges) similar in character to the common mistakes found in uncurated, human-annotated neuron skeletons.
@@ -34,7 +34,7 @@ Different task, but they capture relevant (hand-designed) features.
 
 # Questions
 
-What do GCN people mean by *spectral domain*?
+What do GCN researchers mean by *spectral domain*?
 
 How will re-sampling graphs deal with branching points? Leaves?
 How will it deal with short sections between branches of length 1,2,3 (e.g. synapses)?
